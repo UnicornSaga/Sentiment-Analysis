@@ -16,6 +16,13 @@ conda install --file requirements.txt
 or 
 pip install -r requirements.txt
 ```
+
+### Image models
+Make sure download and unarchived the image data set in this [link](https://drive.google.com/drive/folders/1LrEY41HD9hc9sZICy0F-UP13v-UgDLte?usp=sharing) before running the notebook
+
+After modify the right path to Image dataset, you can work around with `image_training.ipynb`
+
+### Text models
 First run `dataset_preprocessing.ipynb` to get the preprocessing data set
 
 Then work around with the `model_training.ipynb` to see what models do
